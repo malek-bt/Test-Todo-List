@@ -6,9 +6,16 @@ import { FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className={styles.lightBg}>
+    <footer className={`${styles.lightBg} `}>
       <div className="d-flex justify-content-between align-items-center p-2">
-      <h4 className={styles.pinkColor}>Todo List</h4>
+      <div className={`${styles.lightBg} d-flex align-items-center gap-2`}>
+      <div
+        className={`${styles.pinkBg} rounded-circle d-flex justify-content-center fs-2`}
+      >
+        <p>T</p>
+      </div>
+      <h4 className={`${styles.IslandFont} fs-2`}>Todo List</h4>
+    </div>
         <div className="d-flex gap-2">
           <div
             className="border border-dark rounded-circle p-1 d-flex justify-content-center align-items-center"

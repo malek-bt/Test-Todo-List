@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 
 .main {
   font-family: 'Roboto Flex', sans-serif;
@@ -34,6 +35,17 @@
 
 .pinkColor {
   color: rgba(248, 119, 119, 1);
+
+}
+
+.IslandFont {
+  font-family: 'Island Moments', sans-serif;
+}
+.pinkBg{
+  background-color: rgba(248, 119, 119, 1);
+  width: 40px;
+  height: 40px;
+  color: black;
   font-family: 'Island Moments', sans-serif;
 }
 
@@ -49,12 +61,29 @@
 .cardBg {
   background-color: rgba(240, 209, 168, 1);
   border-radius: 18px;
-  padding: 10px;
-  
-  margin: 5px;
+  padding: 10px; 
   height: 100%;
   
 }
+
+.date {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.button {
+  background-color: rgba(92, 153, 103, 1);
+  width: 50px;
+  height: 40px;
+  
+}
+
+.inputTask {
+  background-color: rgba(219, 226, 239, 1);
+
+}
+
 
 @media (min-width: 992px) {
   .statusCardLg {

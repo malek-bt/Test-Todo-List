@@ -8,9 +8,8 @@ import Main from '@/components/main.js';
 export default function Home() {
   return (
     <div className={styles.main}>
-     <Header/>
      <Main/>
-     <Footer/>
+    
     </div>
  
   );
