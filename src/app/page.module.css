@@ -56,7 +56,9 @@
   padding: 2px;
   font-size: 12px;
   border-radius: 5px;
+  color: black;
 }
+
 
 .cardBg {
   background-color: rgba(240, 209, 168, 1);
@@ -81,9 +83,16 @@
 
 .inputTask {
   background-color: rgba(219, 226, 239, 1);
-
+ color: black;
 }
 
+.passedBgCard{
+  background-color: rgb(217, 49, 49);
+}
+
+.approchBgCard {
+  background-color: orange;
+}
 
 @media (min-width: 992px) {
   .statusCardLg {
